@@ -13,6 +13,12 @@ import java.util.List;
  * @date 2021/1/14 14:38
  */
 public class Solution$1018 {
+
+    /**
+     * desc: 十进制位数达到一定数量后会超限出错 ERR
+     * @param A
+     * @return
+     */
     public static List<Boolean> prefixesDivBy5(int[] A) {
         List<Boolean> res = new ArrayList<>();
         int len = A.length;
